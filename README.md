@@ -1,34 +1,39 @@
 <div id="top"></div>
+### Descripcion
 
-[![Contributors][contributors-shield]][contributors-url]
-[![Forks][forks-shield]][forks-url]
-[![Stargazers][stars-shield]][stars-url]
-[![Issues][issues-shield]][issues-url]
-[![MIT License][license-shield]][license-url]
+#### Datos y definición del problema
+Con el aprendizaje automático, los algoritmos de regresión, podemos usar un conjunto de datos de estudiantes para predecir las calificaciones de los estudiantes en sus exámenes. Esta es una aplicación interesante ya que les permite a los maestros predecir las calificaciones de los estudiantes antes de los exámenes y encontrar formas de ayudar a los estudiantes que no se espera que se desempeñen tan bien. Este artículo proporciona una explicación detallada de cómo usar python para llevar a cabo esta tarea de predicción de aprendizaje automático.
+
+
+- Preguntas:
+1. Influencia del enamoramiento
+2. Consumo de alcohol
+3. Nivel de educación de los padres
+4. Frecuencia de salida con amigos
+5. Deseo de educación superior
+6. Estudiantes Rurales vs Estudiantes Urbanos
+
+- ¿Por qué es importante?
+
+Es importante porque se puede predecir el desempeño académico apartir de partir de indicadores de desempeño, rasgos que enfocan la atención en aspectos
+
+####Dataset:
+Este estudio considera los datos recopilados durante el año escolar 2005-2006 de dos escuelas públicas, de la región de Alentemol de Portugal. La base de datos se construyó a partir de dos fuentes: informes escolares y cuestionarios, relacionados con varias variables demográficas (p. ej., educación de la madre, ingresos familiares), sociales/emocionales (p. ej., consumo de alcohol) y relacionadas con la escuela (p. ej., número de fracasos en clases anteriores) que son se espera que afecte el desempeño de los estudiantes. Los conjuntos de datos utilizados para este proyecto están disponibles públicamente en Kaggle y se pueden descargar con estas direcciones URL:
+- https://www.kaggle.com/balavashan/students-performance-dataset
+
 
 <!-- TABLE OF CONTENTS -->
 <details>
   <summary>Tabla de Contenido</summary>
   <ol>
     <li>
-      <a href="#about-the-project">About The Project</a>
+      <a href="#getting-started">Empezando</a>
       <ul>
-        <li><a href="#built-with">Built With</a></li>
+        <li><a href="#prerequisites">Requerimientos Previos</a></li>
       </ul>
     </li>
-    <li>
-      <a href="#getting-started">Getting Started</a>
-      <ul>
-        <li><a href="#prerequisites">Prerequisites</a></li>
-        <li><a href="#installation">Installation</a></li>
-      </ul>
-    </li>
-    <li><a href="#usage">Usage</a></li>
-    <li><a href="#roadmap">Roadmap</a></li>
-    <li><a href="#contributing">Contributing</a></li>
-    <li><a href="#license">License</a></li>
-    <li><a href="#contact">Contact</a></li>
-    <li><a href="#acknowledgments">Acknowledgments</a></li>
+    <li><a href="#license">Licencia</a></li>
+    <li><a href="#contact">Contacto</a></li>
   </ol>
 </details>
 
@@ -37,7 +42,7 @@
 
 This section should list any major frameworks/libraries used to bootstrap your project. Leave any add-ons/plugins for the acknowledgements section. Here are a few examples.
 
-* [Node.js](https://nextjs.org/)
+* [Node.js](https://nodejs.org/es/)
 * [Angular](https://angular.io/)
 * [Python](https://www.python.org/)
 * [FastApi](https://fastapi.tiangolo.com/)
@@ -54,7 +59,7 @@ Este es un ejemplo sobre cómo configurar su proyecto localmente. Para obtener u
 
 ### Requerimientos Previos
 
-####Backend
+#### Backend
 
 Instalar Python, crear un entorno virtual en el cual se debe instalar los requerimientos descritos en el archivo requirements.txt.
 
@@ -62,7 +67,7 @@ Instalar Python, crear un entorno virtual en el cual se debe instalar los requer
  ```sh
  pip install -r /path/to/requirements.txt
  ```
-####Frontend
+#### Frontend
 
 Se debe instalar las siguientes librerias npm para su correcto funcionamiento:
 
@@ -79,13 +84,11 @@ Distribuido bajo la licencia MIT. Consulte `LICENSE.txt` para obtener más infor
 
 <p align="right">(<a href="#top">back to top</a>)</p>
 
-
-
 <!-- CONTACT -->
 ## Contacto
 
-Angel Steven Martinez Chamba - angel.martinez@unl.edu.ec
-Henrry Manuel Calva Jimenez - henrry.jimenez@unl.edu.ec
+- Angel Steven Martinez Chamba - angel.martinez@unl.edu.ec
+- Henrry Manuel Calva Jimenez - henrry.jimenez@unl.edu.ec
 
 
 Project Link: [https://github.com/your_username/repo_name](https://github.com/Steven12758/predict_be_fe_aed.git)
