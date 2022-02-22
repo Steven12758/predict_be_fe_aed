@@ -1,4 +1,5 @@
 <div id="top"></div>
+
 ### Descripcion
 
 #### Datos y definición del problema
@@ -17,7 +18,7 @@ Con el aprendizaje automático, los algoritmos de regresión, podemos usar un co
 
 Es importante porque se puede predecir el desempeño académico apartir de partir de indicadores de desempeño, rasgos que enfocan la atención en aspectos
 
-####Dataset:
+#### Dataset:
 Este estudio considera los datos recopilados durante el año escolar 2005-2006 de dos escuelas públicas, de la región de Alentemol de Portugal. La base de datos se construyó a partir de dos fuentes: informes escolares y cuestionarios, relacionados con varias variables demográficas (p. ej., educación de la madre, ingresos familiares), sociales/emocionales (p. ej., consumo de alcohol) y relacionadas con la escuela (p. ej., número de fracasos en clases anteriores) que son se espera que afecte el desempeño de los estudiantes. Los conjuntos de datos utilizados para este proyecto están disponibles públicamente en Kaggle y se pueden descargar con estas direcciones URL:
 - https://www.kaggle.com/balavashan/students-performance-dataset
 
@@ -73,8 +74,14 @@ Se debe instalar las siguientes librerias npm para su correcto funcionamiento:
 
 * npm
   ```sh
+  npm update @angular/cli
+  ```
+  
+  ```sh
   npm install @angular/cli
   ```
+  
+
 
 
 <!-- LICENSE -->
