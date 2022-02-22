@@ -74,7 +74,7 @@ Se debe instalar las siguientes librerias npm para su correcto funcionamiento:
 
 * npm
   ```sh
-  npm update @angular/cli
+  npm update 
   ```
   
   ```sh
