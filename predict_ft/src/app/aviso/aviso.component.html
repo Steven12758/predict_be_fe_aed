@@ -1,0 +1,11 @@
+<h1 mat-dialog-title class="text-center">{{title}}</h1>
+<div mat-dialog-content>
+    <h3 class="text-center m-2">Para evaluar se toma en consideracion las siguientes ponderaciones:</h3>
+    <h4 class="text-justify m-2">
+        <p> 0 a 1 -> Pobre</p>
+        <p> 1.1 a 2 -> Regular</p>
+        <p> 2.1 a 3 -> Bueno</p>
+    </h4>
+    <h2 class="text-center m-5" style="color: red;">{{nota}}</h2>
+    <button class="btn btn-primary" (click)="cancel()">Cerrar</button>
+</div>

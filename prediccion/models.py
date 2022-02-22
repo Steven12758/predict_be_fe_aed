@@ -1,0 +1,64 @@
+from pydantic import BaseModel 
+
+class Student(BaseModel): 
+    age: float
+    mother_education: float
+    father_education: float
+    commute_time: float
+    study_time: float
+    failures: float
+    family_quality: float
+    free_time: float
+    go_out: float
+    weekday_alcohol_usage: float
+    weekend_alcohol_usage: float
+    health: float
+    absences: float
+    period1_score: float
+    period2_score: float
+    school_GP: float
+    school_MS: float
+    sex_F: float
+    sex_M: float
+    address_Rural: float
+    address_Urban: float
+    family_size_GT3: float
+    family_size_LE3: float
+    parents_status_A: float
+    parents_status_T: float
+    mother_job_at_home: float
+    mother_job_health: float
+    mother_job_other: float
+    mother_job_services: float
+    mother_job_teacher: float
+    father_job_at_home: float
+    father_job_health: float
+    father_job_other: float
+    father_job_services: float
+    father_job_teacher: float
+    reason_course: float
+    reason_home: float
+    reason_other: float
+    reason_reputation: float
+    guardian_father: float
+    guardian_mother: float
+    guardian_other: float
+    school_support_no: float
+    school_support_yes: float
+    family_support_no: float
+    family_support_yes: float
+    paid_classes_no: float
+    paid_classes_yes: float
+    activities_no: float
+    activities_yes: float
+    nursery_no: float
+    nursery_yes: float
+    desire_higher_edu_no: float
+    desire_higher_edu_yes: float
+    internet_no: float
+    internet_yes: float
+    romantic_no: float
+    romantic_yes: float
+
+  
+
