@@ -80,9 +80,15 @@ Se debe instalar las siguientes librerias npm para su correcto funcionamiento:
   ```sh
   npm install @angular/cli
   ```
-  
 
 
+## Cuaderno de Trabajo Coolab
+
+Link Cuaderno Trabajo: (https://colab.research.google.com/drive/17eErYBH4SeLGRpc0LTtpJyvaR-UEAtjw?usp=sharing)
+
+## Implementación
+
+Link: (hhttps://damp-wave-33692.herokuapp.com/)
 
 <!-- LICENSE -->
 ## Licencia
@@ -98,7 +104,7 @@ Distribuido bajo la licencia MIT. Consulte `LICENSE.txt` para obtener más infor
 - Henrry Manuel Calva Jimenez - henrry.jimenez@unl.edu.ec
 
 
-Project Link: [https://github.com/your_username/repo_name](https://github.com/Steven12758/predict_be_fe_aed.git)
+Link Proyecto: (https://github.com/Steven12758/predict_be_fe_aed.git)
 
 <p align="right">(<a href="#top">back to top</a>)</p>
 
