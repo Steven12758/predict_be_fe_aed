@@ -88,7 +88,7 @@ Link Cuaderno Trabajo: (https://colab.research.google.com/drive/17eErYBH4SeLGRpc
 
 ## Implementación
 
-Link: (hhttps://damp-wave-33692.herokuapp.com/)
+Link: (https://damp-wave-33692.herokuapp.com/)
 
 <!-- LICENSE -->
 ## Licencia
